@@ -2,9 +2,14 @@
 
   to=$1
   msg=$2
-
   tgpath=/home/pi/tg
 
   cd ${tgpath}
-##  (echo "msg $to $msg"; echo "safe_quit")|sleep 10 | ${tgpath}/bin/telegram-cli -k tg-server.pub -W
-  (sleep 3 ; echo "get_self"; sleep 2; echo "msg $to $msg") | ${tgpath}/bin/telegram-cli -k tg-server.pub -W
+  (sleep 3;echo "get_self";sleep 2 ; echo "msg $to $msg"; echo "safe_quit") | ${tgpath}/bin/telegram-cli -k tg-server.pub -W
+
+
+##  ${tgpath}/bin/telegram-cli -k tg-server.pub -W | (echo "msg $to $msg"; echo "safe_quit")
+
+#if smoke dector detect the smoke "people smoking"
+#else dont send message
+
