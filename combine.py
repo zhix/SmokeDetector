@@ -1,4 +1,4 @@
-#!/usr/bin/phyton
+#!/usr/bin/python
 
 import serial
 import smtplib
@@ -8,10 +8,14 @@ sender = 'Chong72082@Yes.My'
 receiver = ['lhu@live.com.my']
 
 try:
+
+##read from Arduino 
 	ser.readline()
 	x = ser.readline()
+
 	message = x
 
+##send email 
         smtpobj = smtplib.SMTP('smtp.gmail.com',587)
         smtpobj.ehlo()
         smtpobj.starttls()
@@ -20,4 +24,3 @@ try:
 
 except smtplib.SMTPException:
         print "Error"
-

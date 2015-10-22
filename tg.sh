@@ -3,7 +3,7 @@
   to=$1
   msg=$2
   tgpath=/home/pi/tg
-  result = 0 
+  result = 0
 
 #  sudo python connect_to_arduino.py
 #  while True:
@@ -17,4 +17,3 @@
 
 #if smoke dector detect the smoke "people smoking"
 #else dont send message
-

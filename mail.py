@@ -1,13 +1,13 @@
-#!/usr/bin/phyton
+#!/usr/bin/python
 
 import smtplib
 
 sender = 'Chong72082@Yes.My'
-receiver = ['lhu@live.com.my']
+receiver = ['yo_czx@hotmail.com']
 
-message = """From: From Sir Chong <Chong72082@Yes.My>
-To: To Lim <lhu@live.com.my>
-Subject: Test
+message = """From: DR. DIY (in toilet)
+To: Sir Chong and Discipline Team
+Subject: THERE IS A SMOKER!! 
 
 This is a test message
 """
