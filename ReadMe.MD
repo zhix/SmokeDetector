@@ -6,6 +6,13 @@ Smoke Detector -- to detect smokers in toilet and allow discipline teachers to g
 2) run run.sh
 
 ## Contributors
-
 Sir Chong
 Team DYT^2: Dakshayanie, Yurveina, Thayalan, Tines
+
+## References
+1) On RaspPi auto-start: http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html
+
+2) On checking wifi status: https://www.raspberrypi.org/forums/viewtopic.php?t=119518&p=809995
+
+3) On using github: http://www.instructables.com/id/Introduction-to-GitHub/?ALLSTEPS
+
