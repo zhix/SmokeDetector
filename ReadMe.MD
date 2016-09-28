@@ -9,6 +9,14 @@ Smoke Detector -- to detect smokers in toilet and allow discipline teachers to g
 Sir Chong
 Team DYT^2: Dakshayanie, Yurveina, Thayalan, Tines
 
+## Requirement on Raspberry Pi
+1) Install Arduino 
+```
+sudo apt-get install arduino
+```
+2) Install 
+
+
 ## References
 1) On RaspPi auto-start: http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html
 
