@@ -3,7 +3,8 @@ Smoke Detector -- to detect smokers in toilet and allow discipline teachers to g
 
 ## How to use?
 1) Hook up Arduino with Gas Sensor and Temperature sensor to Raspberry Pi
-2) run run.sh
+
+2) run "run.sh"
 ```
 sudo bash run.sh
 ```
